@@ -18,7 +18,8 @@ This repository is designed to support a hands-on workshop focused on exploring 
 ---
 * **⚠️You will need to be added as a collaborator to this repo and the project boards to complete the exercises** Please reach out to me if you would like to be added (you can open an issue and @brainonsilicon).
 * Please go through the slides to get an overview of what Projects are and how they work together, then have a play around in the project boards that have been set up in this repo.
-* These are the exercises that are done in the workshop:
+
+* These are the exercises that are shown in the workshop:
   * Adding an existing Issue to an existing Milestones from the Issues tab 
   * Creating a new Milestone
   * Adding a new View to a project board

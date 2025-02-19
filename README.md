@@ -1,4 +1,4 @@
-# About the GitHub for Project Managment Workshop and Repository
+# About this Repository
 
 This repository is designed to support a hands-on workshop focused on exploring different approaches to project management and demonstrating how GitHub’s features can be used to help manage projects effectively. During the session, participants will learn about how GitHub tools like repositories, issues, and milestones work with GitHub's inbuilt Projects. 
 

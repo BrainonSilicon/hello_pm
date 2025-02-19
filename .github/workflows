@@ -1,0 +1,46 @@
+# This workflow uses actions powered by imjohnbo/issue-bot
+# This creates a new issue at 9am on the 30th of each month
+# with tasks and next steps for setting up the subsequent lunch and learn session
+
+name: Lunch and Learn Planning
+on:
+  schedule:
+    - cron: 0 9 30 * *  # occur at 9am on the 30th of every month
+
+jobs:
+  create_issue:
+    name: Lunch and Learn Planning
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    
+    steps:
+      - name: Lunch and Learn Planning
+        uses: imjohnbo/issue-bot@v3 # changed from imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98
+        with:
+          assignees: "brainonsilicon"
+          labels: "events, community-building, skills" # adds labels to the issue
+          title: "This Month's Lunch and Learn Planning"
+          body: |
+            ## About 
+            The monthly AIM RSF PPIE Lunchtime Sessions will provide a dedicated space for the PPIE leads of each consortia to participate in discussions, problem solving, and ideas sharing relating to AIM research activity and multiple long-term conditions (MLTC) in general.
+            This issue details out the event organization and planning that needs to occur to support the event.
+                    
+            ### What Needs to be Done
+            - [ ] Plan session topics
+            - [ ] Plan presenters and scope material to be in plain language and acessible (font size, screen reader etc) 
+            - [ ] Check zoom link
+            - [ ] Invite Zoom co-host
+            - [ ] Edit email template
+            - [ ] Send out email to PPIE mailing list
+            - [ ] Send out calendar invite
+            - [ ] Write up summary notes
+            
+            ### Other Information
+            
+            
+          pinned: true
+          close-previous: true
+        
+        env:
+          GITHUB_TOKEN: ${{ secrets.RECUR_TOKEN }}

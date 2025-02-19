@@ -14,8 +14,7 @@ This repository is designed to support a hands-on workshop focused on exploring 
 * Supporting Files: Code of Conduct, Contribution Guidelines, and other resources that support a collaborative and reproducible project environment.
 
 
-💡 If you are exploring this repo outside of a workshop
----
+### 💡 If you are exploring this repo outside of a workshop
 * **⚠️You will need to be added as a collaborator to this repo and the project boards to complete the exercises** Please reach out to me if you would like to be added (you can open an issue and @brainonsilicon).
 * Please go through the slides to get an overview of what Projects are and how they work together, then have a play around in the project boards that have been set up in this repo.
 

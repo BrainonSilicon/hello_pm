@@ -16,7 +16,6 @@ This repository is designed to support a hands-on workshop focused on exploring 
 ## 🧰 What’s included in this repository:
 * Slides and Workshop Material: Presentation slides offering guidance on project management styles and demonstrations of GitHub’s project management capabilities.
 * Example Issues, Milestones, and Boards: Ready-made tasks, labels, and workflows you can adapt for your own projects.
-* Supporting Files: Code of Conduct, Contribution Guidelines, and other resources that support a collaborative and reproducible project environment.
 
 
 ### 💡 If you are exploring this repo outside of a workshop

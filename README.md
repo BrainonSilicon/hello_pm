@@ -39,6 +39,9 @@ As an open source repository, anyone is very welcome to reuse this material and 
 
 ### 🎯Checklist for running a workshop using this repo and its materials
 - [ ] Collect participant’s GitHub usernames and add as collaborators to both the repo and the project board
+- [ ] Open template issues
+- [ ] Set up a project board with tags that can be used to show different filtering op
+- [ ] Check the repo permissions. This repo was set up as a personal repo (i.e. not part of an organization) so has different granularity of 
 
 
 
